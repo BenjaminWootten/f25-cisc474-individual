@@ -16,4 +16,4 @@
 - A User may make many Submissions to an Assignment
 - A submission receives Feedback
 
-![Data model diagram](planning-assets/data-model-diagram.png)
+![Data model diagram](planning-assets/data-model-diagram.PNG)
