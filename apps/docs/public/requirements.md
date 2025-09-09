@@ -50,3 +50,19 @@
 - UI is easy to navigate
 - Somewhat scalable
 
+## User Stories
+
+1. As a user, I can sign in with Google to see my personalized lms.
+2. As an instructor, I can grant TA permissions in my course.
+3. As an instructor, I can create a course with multiple sections and unique due dates/assignments.
+4. As a student, I can self enroll into a course with a code.
+5. As an instructor, I can add an assignment with a due date, open date, and close date.
+6. As an instructor, I can grade an assignment.
+7. As a student, I can view my grades for assignments in a course.
+8. As a student, I can view my course dashboard and grades.
+9. As an instructor, I can view my course dashboard.
+10. As a student, I can submit an assignment to be graded.
+11. As a student, I can resubmit however many times the assignment specifies.
+13. As a grader, I can open a submission and input a grade with/without a comment.
+14. As an instructor, I can post an announcement for students.
+15. As an admin, I can manage course logistics for instructors.
