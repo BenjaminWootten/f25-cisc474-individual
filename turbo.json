@@ -4,7 +4,7 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "inputs": [".env", ".env.*", "$TURBO_DEFAULT$"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [
         "build/**",
         ".vercel/**",
