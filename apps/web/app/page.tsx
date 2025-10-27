@@ -23,17 +23,6 @@ export default function Home() {
         <div className={styles.page}>
             <main className={styles.main}>
                 <h1>CISC474 Project Starter</h1>
-                <ol>
-                    <li>
-                        Get started by editing{" "}
-                        <code>apps/web/app/page.tsx</code>
-                    </li>
-                    <li>Save and see your changes instantly.</li>
-                </ol>
-
-                <Button appName="web" className={styles.secondary}>
-                    Open alert
-                </Button>
             </main>
             <footer className={styles.footer}>
                 <a
