@@ -2,7 +2,7 @@ import './DashboardCourse.css';
 import React from 'react';
 import { Link } from '@tanstack/react-router';
 
-export type Course = {
+export type CourseComponentData = {
     id: string;
     code: string;
     title: string;
@@ -11,7 +11,7 @@ export type Course = {
 }
 
 type DashboardCourseProps = {
-    course: Course;
+    course: CourseComponentData;
 }
 
 export function DashboardCourse({course}: DashboardCourseProps): React.JSX.Element {

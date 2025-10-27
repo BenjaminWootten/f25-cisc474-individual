@@ -1,13 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { DashboardCourse } from '../../components/DashboardCourse';
 import './dashboard.css';
-import type { Course } from '../../components/DashboardCourse';
+import type { CourseComponentData } from '../../components/DashboardCourse';
 
 export const Route = createFileRoute('/dashboard/')({
   component: RouteComponent,
 })
 
-const courses: Array<Course> = [
+const courses: Array<CourseComponentData> = [
   {id:'1', code:'CISC474', title:'Advanced Web Technologies', instructor:'Dr. Bart', grade:'90%'},
   {id:'2', code:'MATH349', title:'Linear Algebra', instructor:'Dr. Park', grade:'80%'},
 ];
