@@ -1,6 +1,5 @@
 import { Link } from '@tanstack/react-router';
 import './NavBar.css';
-import { link } from 'fs';
 
 type Link = {to: string, label: string}
 
