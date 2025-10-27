@@ -16,7 +16,7 @@ type DashboardCourseProps = {
 
 export function DashboardCourse({course}: DashboardCourseProps): React.JSX.Element {
     return (
-        <Link to="/home">
+        <Link to="/dashboard/course">
             <div className="courseContainer">
                 <div className="item title"><p className="title">{course.code}: {course.title}</p></div>
                 <div className="item"><p>{course.instructor}</p></div>
