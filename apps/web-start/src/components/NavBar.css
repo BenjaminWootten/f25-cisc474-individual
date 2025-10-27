@@ -1,0 +1,41 @@
+.navbar {
+    display: block;
+    padding:0;
+    background-color: whitesmoke;
+    width:100%;
+    height:5vh;
+    min-height:30px;
+}
+
+.button {
+    border-radius: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    height:100%;
+    font-size:100%;
+    background-color:transparent;
+    color:rgb(88, 88, 88);
+    padding:0 15px
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(97, 140, 176);
+    color:black;
+}
+
+.button:disabled{
+    color:gray;
+    background-color: aliceblue;
+}
+
+.button:focus,
+.button:active,
+.button:focus:active {
+    background-color: rgb(97, 140, 176);
+    color: black;
+    outline: none;
+    box-shadow: none;
+    transition: none;
+}
