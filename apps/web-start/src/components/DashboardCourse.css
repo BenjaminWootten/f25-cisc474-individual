@@ -1,10 +1,9 @@
-.container {
+.courseContainer {
     display: flex;
     justify-content: center;
-    border: 1px solid #ccc;
-    background-color: whitesmoke;
-    border-radius: 8px;
     min-height: 60px;
+    margin-top: 0px;
+    border-top: 1px solid black;
 }
 
 .item {
@@ -20,11 +19,15 @@ p {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .grade {
     align-items: end;
     margin-right: 20px;
+}
+
+.title {
+    align-items: start;
 }
