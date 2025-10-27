@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { DashboardCourse } from '../../components/DashboardCourse';
 import './dashboard.css';
-import { Course } from '../../components/DashboardCourse';
+import type { Course } from '../../components/DashboardCourse';
 
 export const Route = createFileRoute('/dashboard/')({
   component: RouteComponent,
