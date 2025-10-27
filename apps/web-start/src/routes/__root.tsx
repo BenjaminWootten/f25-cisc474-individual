@@ -45,8 +45,11 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 });
 
 function RootLayout() {
-  return ( 
-    <NavBar></NavBar>
+  return (
+    <div>
+      <NavBar></NavBar>
+      <Outlet/>
+    </div>
   )
 }
 
