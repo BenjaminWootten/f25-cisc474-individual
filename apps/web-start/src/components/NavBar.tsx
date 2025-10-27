@@ -17,6 +17,7 @@ export function NavBar() {
                 <Link
                 to={link.to}
                 className="tab"
+                key={link.to}
                 // Code from chatgpt
                 activeProps={{ 'aria-current': 'page' }}
                 activeOptions={{ exact: link.exact, includeHash: false, includeSearch: false }}
