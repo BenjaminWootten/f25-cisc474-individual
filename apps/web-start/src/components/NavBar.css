@@ -1,5 +1,6 @@
-.navbar {
-    display: block;
+#navbar {
+    display: flex;
+    align-items: stretch;
     padding:0;
     background-color: whitesmoke;
     width:100%;
@@ -7,7 +8,9 @@
     min-height:30px;
 }
 
-.button {
+.tab {
+    display: flex;
+    align-items: center;
     border-radius: 0px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -19,20 +22,18 @@
     padding:0 15px
 }
 
-.button:hover {
+.tab:hover {
     cursor: pointer;
     background-color: rgb(97, 140, 176);
     color:black;
 }
 
-.button:disabled{
+.tab:disabled{
     color:gray;
     background-color: aliceblue;
 }
 
-.button:focus,
-.button:active,
-.button:focus:active {
+.tab[aria-current="page"] {
     background-color: rgb(97, 140, 176);
     color: black;
     outline: none;
